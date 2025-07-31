@@ -1,13 +1,10 @@
 # dataset settings
 
 dataset_type = 'COCOStuffDataset'
-data_root = '/picassox/sfs-mtlab-train-base/ch11/cocostuff_10k'
-work_dir = '/picassox/sfs-mtlab-train-base/ch11/mmsegmentation/output/swin_base_upernet_coco_1-mask_weight_0.5'
+data_root = 'cocostuff_10k'
+work_dir = 'output/swin_base_upernet_coco_1-mask_weight_0.5'
 
 batch_size=6
-
-# data_root = '/workspace/Seg/coco_stuff10k'
-# work_dir = '/workspace/Seg/mmsegmentation/output/swin_tiny_fpn_coco10k_80k'
 
 crop_size = (512, 512)
 train_pipeline = [
